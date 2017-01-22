@@ -513,7 +513,7 @@
 	}
 
 		#nav > ul > li {
-			border-radius: 10px 10px 0 0;
+			border-radius: 10px;
 			display: inline-block;
 			margin-left: 0.5em;
 			padding: 0.5em 1.5em;
@@ -529,8 +529,9 @@
 				margin-left: 0;
 			}
 
-			#nav > ul > li:hover a {
-				color: #fff;
+			#nav > ul > li:hover {
+				color: #FFF;
+                background: #65F9E7;
 			}
 
 			#nav > ul > li.active {
@@ -549,7 +550,7 @@
 
 	.dropotron {
 		margin-top: -2px;
-		background: #111111;
+		background: #000000;
 		border-radius: 10px;
 		color: white;
 		min-width: 12em;
@@ -561,7 +562,7 @@
 			padding: 0 1em;
 		}
         .dropotron > li:hover {
-          background:#65F9E7;
+          background:#3399ff;
         }
 
 			.dropotron > li > a {
