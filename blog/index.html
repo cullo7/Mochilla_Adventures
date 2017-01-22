@@ -13,8 +13,8 @@ layout: main
 						<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
 					</header>
 					<ul class="style">
-						{% for post in site.posts offset: 0 limit: 4 %}
 						<li>
+                            {% for post in site.posts offset: 0 limit: 4 %}
 							<a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }}</h2></a>
 							<img src="{{ site.baseurl }}/assets/{{ post.featured }}" alt="">
 							{{ post.excerpt }}
