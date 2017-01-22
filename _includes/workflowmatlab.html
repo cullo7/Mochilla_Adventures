@@ -1,4 +1,4 @@
-<script src="{{ site.baseurl }}/js/mermaid.min.js"></script>
+pt src="{{ site.baseurl }}/js/mermaid.min.js"></script>
 <link rel="stylesheet" href="{{ site.baseurl }}/css/mermaid.forest.css">
 <script>mermaid.initialize({startOnLoad:true});</script>
 
@@ -9,22 +9,16 @@
 	{% endif %}
 {% endfor %}
 {% assign subcount = text | size | minus:1 %}
-
 <!-- Encapsulate in Capture to Handle the Whitespace and Allow Commenting -->
 {% capture MermaidBlock %}
-
 <!-- Initialize Header Counts -->
 {% assign smallheadercount = 0 %}
-
 <!-- Initialize Flowchart -->
 graph TB
-
 <!-- Loop over Potential Headers -->
 {% for sub in (1..subcount) %}
-
 	<!-- Get Length of Potential Header String -->
 	{% assign headerlevel = text[sub] | truncate: 1 %}
-
 		<!-- If I am the First in Sequence Nowhere to Connect -->
 		{% if smallheadercount == 0 %}
 		

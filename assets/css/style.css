@@ -405,7 +405,7 @@
 		-o-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background: #3ac984;
+		background: #65F9E7;
 		border-radius: 40px;
 		border: 0;
 		color: white;
@@ -652,3 +652,4 @@
 		#footer a {
 			color: inherit;
 		}
+
