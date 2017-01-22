@@ -21,7 +21,7 @@
 	}
 
 	a {
-		color: #3ac984;
+		color: #65F9E7;
 		text-decoration: underline;
 	}
 
@@ -137,7 +137,7 @@
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #3ac984;
+			border-color: #65F9E7;
 		}
 
 	input[type="text"],
@@ -336,12 +336,16 @@
 			width: 80px;
 			height: 80px;
 			margin-right: 1em;
-			background: #3ac984;
+			background: #65F9E7;
 			line-height: 80px;
 			text-align: center;
 			border-radius: 10px;
 			font-size: 2em;
 			color: white;
+		}
+
+		ul.style .fa:hover {
+			background-color: #3399ff;
 		}
 
 		ul.list {
@@ -423,7 +427,7 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #32b777;
+			background-color: #3399ff;
 		}
 
 		input[type="submit"].fit,
@@ -530,7 +534,7 @@
 			}
 
 			#nav > ul > li.active {
-				background: #3ac984;
+				background: #65F9E7;
 			}
 
 				#nav > ul > li.active a {
@@ -545,7 +549,7 @@
 
 	.dropotron {
 		margin-top: -2px;
-		background: #3ac984;
+		background: #111111;
 		border-radius: 10px;
 		color: white;
 		min-width: 12em;
@@ -556,6 +560,9 @@
 			line-height: 2em;
 			padding: 0 1em;
 		}
+        .dropotron > li:hover {
+          background:#65F9E7;
+        }
 
 			.dropotron > li > a {
 				color: #FFF;
