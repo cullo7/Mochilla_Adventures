@@ -13,7 +13,7 @@ layout: main
 						<h2>Blog</h2>
 						<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
 					</header>
-					<ul class="style">
+					<ul class="style-posts">
                             {% for post in site.posts offset: 0 limit: 4 %}
 						<li class="blog-title">
 							<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>

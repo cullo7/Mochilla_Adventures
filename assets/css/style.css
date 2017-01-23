@@ -695,7 +695,7 @@ h2 > a:hover {
     margin: 10px;
     background: #000;
 }
-.style:before {
+.style-posts:before {
     content: "";
     display: block;
     height: 4px;
