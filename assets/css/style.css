@@ -348,6 +348,27 @@
 			background-color: #3399ff;
 		}
 
+        
+		ul.style #twitter:hover {
+            color:#33FDE4;
+			background-color: #FFF;
+		}
+
+		ul.style #facebook:hover {
+            color:#3399ff;
+			background-color: #FFF;
+		}
+
+		ul.style #instagram:hover {
+            color:#9C5D0C;
+			background-color: #FFF;
+		}
+
+		ul.style #email:hover {
+            color: #000;
+			background-color: #FFF;
+		}
+
 		ul.list {
 			list-style: none;
 		}
@@ -512,11 +533,11 @@
 		margin: 0;
 	}
 
-		#nav > ul > li {
+        #nav > ul > li {
 			border-radius: 10px;
 			display: inline-block;
-			margin-left: 0.5em;
-			padding: 0.5em 1.5em;
+            width:12%;
+            line-height:240%;
 		}
 
 			#nav > ul > li a {
@@ -525,7 +546,7 @@
 				font-size: 1.2em;
 			}
 
-			#nav > ul > li:first-child {
+			#nav > ul > li a:first-child {
 				margin-left: 0;
 			}
 
@@ -538,7 +559,7 @@
 				background: #65F9E7;
 			}
 
-				#nav > ul > li.active a {
+				#nav > ul > li a.active div {
 					color: white;
 				}
 
@@ -660,4 +681,55 @@
 		#footer a {
 			color: inherit;
 		}
-
+h2 > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+h2 > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+h2 > a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+h2 > a:hover {
+    color: #000;
+}
+.blog-title:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 40%;
+    margin: 10px;
+    background: #000;
+}
+.style-posts:before {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    margin-bottom:5%;
+    background: #000;
+}
+.post-summary {
+  width:50%;
+  height:1%;
+  overflow:hidden; 
+  text-overflow:ellipsis
+}
+.blog-title > img {
+  padding-bottom:5%;
+}

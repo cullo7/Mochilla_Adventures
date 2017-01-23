@@ -2,17 +2,17 @@
 	<nav id="nav">
 		<ul>
 			{% assign current = page.url | downcase | split: '/' %}
-			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
+			<li><a href="{{ site.baseurl }}/index.html"><div{% if current[1] == 'index.html' %}class='current'{% endif %}>Home</div></a></li>
 			<li>
-				<a href="">Gallery</a>
+				<a href=""><div>Gallery</div></a>
 				<ul>
 					<li><a href="#">Indonesia</a></li>
 					<li><a href="#">Cambodia</a></li>
 					<li><a href="#">Vietnam</a></li>
 				</ul>
 			</li>
-			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li>
-			<li {% if current[1] == 'travel_tips.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/travel_tips.html">Travel Tips</a></li>
-			<li {% if current[1] == 'contact.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
+			<li><a href="{{ site.baseurl }}/blog"><div {% if current[1] == 'blog' %}class='current'{% endif %}>Blog</div></a></li>
+			<li><a href="{{ site.baseurl }}/travel_tips.html"><div {% if current[1] == 'travel_tips.html' %}class='current'{% endif %}>Travel</div></a></li>
+			<li><a href="{{ site.baseurl }}/contact.html"><div {% if current[1] == 'contact.html' %}class='current'{% endif %}>Contact</div></a></li>
 		</ul>
 	</nav>

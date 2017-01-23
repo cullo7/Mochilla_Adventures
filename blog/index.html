@@ -1,5 +1,6 @@
 ---
-title: Blog
+title: Mochilla Adventures
+subtitle: Blog
 layout: main
 ---
 
@@ -12,12 +13,12 @@ layout: main
 						<h2>Blog</h2>
 						<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
 					</header>
-					<ul class="style">
-						<li>
+					<ul class="style-posts">
                             {% for post in site.posts offset: 0 limit: 4 %}
-							<a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }}</h2></a>
+						<li class="blog-title">
+							<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 							<img src="{{ site.baseurl }}/assets/{{ post.featured }}" alt="">
-							{{ post.excerpt }}
+							<div class="post-summary">{{ post.excerpt }}</div>
 						</li>
 						{% endfor %}
 					</ul>
