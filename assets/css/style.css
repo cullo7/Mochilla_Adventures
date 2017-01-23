@@ -687,3 +687,28 @@ h2 > a {
 h2 > a:hover {
     color: #000;
 }
+.blog-title:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 40%;
+    margin: 10px;
+    background: #000;
+}
+.style:before {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    margin-bottom:5%;
+    background: #000;
+}
+.post-summary {
+  width:50%;
+  height:1%;
+  overflow:hidden; 
+  text-overflow:ellipsis
+}
+.blog-title > img {
+  padding-bottom:5%;
+}
