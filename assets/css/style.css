@@ -348,6 +348,27 @@
 			background-color: #3399ff;
 		}
 
+        
+		ul.style #twitter:hover {
+            color:#33FDE4;
+			background-color: #FFF;
+		}
+
+		ul.style #facebook:hover {
+            color:#3399ff;
+			background-color: #FFF;
+		}
+
+		ul.style #instagram:hover {
+            color:#9C5D0C;
+			background-color: #FFF;
+		}
+
+		ul.style #email:hover {
+            color: #000;
+			background-color: #FFF;
+		}
+
 		ul.list {
 			list-style: none;
 		}
