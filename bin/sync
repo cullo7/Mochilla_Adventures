@@ -1,2 +1,0 @@
-#!/bin/sh
-rclone copy . srr94:shared/mochilla-web --exclude-from .rclone-exclude -v
