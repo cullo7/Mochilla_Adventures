@@ -13,9 +13,9 @@ you make this one private?
 
 Tasks
 
-1.  Copy template off of this site [magnetic](https://pixelarity.com/magnetic).
-    - I found this template that fits the Mochilla aesthetic very closely. We should buy it
-      eventually, but for now, let's grab from the code from their demo site.
+1.  ~~Copy template off of this site [magnetic](https://pixelarity.com/magnetic). **Sachin**~~
+    - ~~I found this template that fits the Mochilla aesthetic very closely. We should buy it
+      eventually, but for now, let's grab from the code from their demo site.~~
 2.  Split up template into smaller files for Jeyll
     - you've seen how jekyll works
 3.  Recreate website layout from other website
