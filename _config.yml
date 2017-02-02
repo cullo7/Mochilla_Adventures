@@ -15,15 +15,12 @@ collections:
     permalink: /gallery/:slug/
 
 exclude:
-  - .bowerrc
-  - .travis.yml
   - bin/*
   - photos/*
-  - bower.json
-  - circle.yml
   - Gemfile
   - Gemfile.lock
   - README.md
+  - design/
   - vendor/
 
 gems:

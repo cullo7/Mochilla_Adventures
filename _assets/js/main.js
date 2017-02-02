@@ -1,7 +1,6 @@
-//= require jquery.min
-//= require skel.min
+//= require vendor/skel.min
+//= require vendor/jquery.min
+//= require vendor/respond.min
 //= require util
-//= require respond.min
-//= require magnetic
-//= require obfuscated
+//= require deobfus.1
 //= require main
