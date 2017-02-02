@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<!-- Header -->
+			<div id="header">
+				<div class="container">
+
+					<!-- Logo -->
+						<h1><a href="#" id="logo">{{ page.title }}</a></h1>
+
+					{% include nav.html %}
+
+					<!-- Banner -->
+    <div id="banner">
+                <div class="container">
+                    <section>
+                        <header class="major">
+                            <h2>Welcome!</h2>
+                            <span class="byline"> Description of the company</span>
+                        </header>
+                        <a  href="#explore" class="alt button">Explore</a>
+                    </section>
+                </div>
+            </div>
+
+				</div>
+			</div>
+
+		<!-- Featured -->
+			<div class="wrapper style2" id="explore">
+				<section class="container">
+					<header class="major">
+						<h2>Travel with us</h2>
+						<span class="byline">Here are some places we've been</span>
+					</header>
+					<div class="row no-collapse-1">
+						<section class="4u">
+							<a href="/gallery/indonesia" class="image feature"><img src="{{ site.baseurl }}/assets/images/pic02.jpg" alt=""></a>
+							<p>Indonesia</p>
+						</section>
+						<section class="4u">
+							<a href="/gallery/cambodia" class="image feature"><img src="{{ site.baseurl }}/assets/images/pic03.jpg" alt=""></a>
+							<p>Cambodia</p>
+						</section>
+						<section class="4u">
+							<a href="/gallery/vietnam" class="image feature"><img src="{{ site.baseurl }}/assets/images/pic04.jpg" alt=""></a>
+              <p>Vietnam</p>
+						</section>
+
+					</div>
+				</section>
+			</div>
+
+	{{ content }}

@@ -1,0 +1,28 @@
+---
+title: Mochilla Adventures
+subtitle: Blog
+layout: main
+---
+
+<!-- Main -->
+	<div id="main" class="wrapper style1">
+		<div class="container">
+			<section>
+				<div class="10u -1u">
+					<header class="major">
+						<h2>Blog</h2>
+						<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
+					</header>
+					<ul class="style-posts">
+                            {% for post in site.posts offset: 0 limit: 4 %}
+						<li class="blog-title">
+							<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+							<img src="{{ site.baseurl }}/assets/{{ post.featured }}" alt="">
+							<div class="post-summary">{{ post.excerpt }}</div>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</section>
+		</div>
+	</div>
