@@ -7,7 +7,6 @@ assets:
   sources:
     - _assets/css
     - _assets/fonts
-    - _assets/images
     - _assets/js
 
 collections:
