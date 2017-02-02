@@ -1,0 +1,32 @@
+name: Horizons
+description: Horizons template for Jekyll
+paginate: 10
+
+assets:
+  digest: true
+  sources:
+    - _assets/css
+    - _assets/fonts
+    - _assets/images
+    - _assets/js
+
+collections:
+  gallery:
+    output: true
+    permalink: /gallery/:slug/
+
+exclude:
+  - .bowerrc
+  - .travis.yml
+  - bin/*
+  - photos/*
+  - bower.json
+  - circle.yml
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+
+gems:
+  - jekyll-paginate
+  - jekyll-assets

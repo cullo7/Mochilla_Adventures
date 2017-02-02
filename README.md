@@ -11,13 +11,15 @@ you make this one private?
 1. If you want to claim a task, maybe add your name next to it like so? **Sachin**
 1. ~~And once you finish a task, just cross it out.~~
 
-Tasks
+### Tasks
 
-1.  ~~Copy template off of this site [magnetic](https://pixelarity.com/magnetic). **Sachin**~~
-    - ~~I found this template that fits the Mochilla aesthetic very closely. We should buy it
+1.  ~~Copy template off of this site [magnetic](https://pixelarity.com/magnetic). **Sachin**
+    - I found this template that fits the Mochilla aesthetic very closely. We should buy it
       eventually, but for now, let's grab from the code from their demo site.~~
 2.  Split up template into smaller files for Jeyll
     - you've seen how jekyll works
+    - partially done **Sachin**
+    - need to create post and page layouts
 3.  Recreate website layout from other website
     - use Bryan's image for now, I can make something a little more concrete if needed
 4.  Connect with Google Drive so that others can edit content
@@ -27,3 +29,8 @@ Tasks
 7.  ???
 8.  Profit
 
+## Installation
+
+`gem install bundle`
+`bundle install`
+to build correctly, run `bundle exec jekyll serve`
