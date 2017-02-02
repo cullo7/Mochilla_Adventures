@@ -33,7 +33,7 @@ menu.onclick = (el) => {
             var $t = $(this),
                 on, off;
             on = function() {
-                $t.css('background-position', 'center 0px');
+                $t.css('background-position', 'center 110px');
                 $window.on('scroll._parallax', function() {
                     var pos = parseInt($window.scrollTop()) - parseInt($t.position().top);
                     $t.css('background-position', 'center ' + (pos * (-1 * intensity)) + 'px');

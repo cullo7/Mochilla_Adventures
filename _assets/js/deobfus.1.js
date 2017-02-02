@@ -23,7 +23,13 @@
 }({
     1: [function(e, t, n) {
         window.px = function() {
-            window.skel = e("skel"), window.$ = window.jQuery = e("jquery"), e("jquery.touch"), e("jquery.scrollbarify"), window.web = e("web"), e("web_component"), $.fn.navList = function() {
+            window.skel = skel, 
+            window.$ = window.jQuery = jQuery, 
+            // e("jquery.touch"), 
+            // e("jquery.scrollbarify"),
+            // window.web = e("web"),
+            // e("web_component"),
+            $.fn.navList = function() {
                     var e = $(this);
                     return $a = e.find("a"), b = [], $a.each(function() {
                         var e = $(this),
