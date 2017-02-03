@@ -20,8 +20,9 @@ you make this one private?
 3.  Fix background scrolling implementation (it's laggy)
 3.  Recreate website layout (about page, team page, etc)
     - use Bryan's image for now, I can make something a little more concrete if needed
-4.  Connect with Google Drive so that others can edit content
-5.  Add website text content
+4.  ~~Connect with Google Drive so that others can edit content. **Sachin** ~~
+    - this will be available at admin.mochillaadventures.com. Instructions coming soon.
+5.  Get rest of team to add text content
 6.  Create custom interactive blog/gallery based on designs
 7.  Set up pipeline for new images, videos and blog content
 7.  ???
