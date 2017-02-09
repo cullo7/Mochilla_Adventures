@@ -283,7 +283,10 @@
                                 })
                             }, o)
                         })
-                    }), t.client.loggedIn ? (t.obj.$body.addClass("is-loggedIn"), t.obj.$nav.html('<a href="/">Browse</a><a href="/help">Help</a><a href="/account">My Account</a><a href="/account/logout">Log Out</a>')) : t.obj.$body.addClass("is-loggedOut"), $('<a href="#menu" id="menuToggle"></a>').appendTo(t.obj.$header), $('<div id="menu">' + t.obj.$nav.navList() + "</div>").appendTo(t.obj.$body).panel({
+                    }),
+                    t.client.loggedIn ? (t.obj.$body.addClass("is-loggedIn"),
+                    t.obj.$nav.html('<a href="/">Browse</a><a href="/help">Help</a><a href="/account">My Account</a><a href="/account/logout">Log Out</a>')) : t.obj.$body.addClass("is-loggedOut"),
+                    $('<div id="menu">' + t.obj.$nav.navList() + "</div>").appendTo(t.obj.$body).panel({
                         top: 0,
                         target: t.obj.$body,
                         visibleClass: "is-menu-visible",
