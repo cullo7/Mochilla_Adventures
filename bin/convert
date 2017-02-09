@@ -1,4 +1,4 @@
 #!/bin/sh
-cat "$1" | recode html..ascii | sed -e 's/\\//g' > "$2"
-
+cat "$1" | recode html..ascii | sed -e 's/\\//g' > "$1.p"
+mv $1.p $1
 
