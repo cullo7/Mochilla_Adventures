@@ -21,7 +21,7 @@ layout: default
           Mochilla Adventures
         </h2>
         <p>
-          Sed feugiat tempus sem amet imperdiet
+          Sharing our travel experiences around the world.
         </p>
       </header>
       <footer>
@@ -39,7 +39,7 @@ layout: default
 
       <header class="major">
         <h2>
-          Magna sed consequat
+          About Us
         </h2>
         <p>
           Mauris lectus odio, mattis nec velit eu, luctus dictum diam. Quis
@@ -179,17 +179,17 @@ layout: default
           </li>
           <li class="fa-envelope">
             <a style="cursor: pointer;">
-              information@untitled.tld
+              mochillaadventures@gmail.com
             </a>
           </li>
           <li class="fa-twitter">
             <a style="cursor: pointer;">
-              @untitled-tld
+              @mochilla-adv
             </a>
           </li>
           <li class="fa-facebook">
             <a style="cursor: pointer;">
-              facebook.com/untitled
+              facebook.com/MochillaAdv/
             </a>
           </li>
         </ul>

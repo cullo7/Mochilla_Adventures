@@ -1,0 +1,4 @@
+#!/bin/sh
+cat "$1" | recode html..ascii | sed -e 's/\\//g' > "$2"
+
+
