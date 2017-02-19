@@ -18,6 +18,8 @@ menu.onclick = (el) => {
         small: '(max-width: 736px)',
         xsmall: '(max-width: 480px)'
     });
+    // TODO turned off parallax effect here:w
+    /* 
     $.fn._parallax = (skel.vars.browser == 'ie' || skel.vars.mobile) ? function() {
         return $(this)
     } : function(intensity) {
@@ -53,6 +55,7 @@ menu.onclick = (el) => {
         });
         return $(this);
     };
+    */
     $(function() {
         var $window = $(window),
             $body = $('body');

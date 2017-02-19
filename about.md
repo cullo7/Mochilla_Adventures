@@ -5,17 +5,24 @@ layout: default
 <div id="main">
   <section id="content" class="default">
     <header class="major">
-      <h2>Generic</h2>
-      <p>Mauris lectus odio, mattis nec velit eu, luctus dictum diam. Quis<br> tempus que ornare purus a bibendum ultricies.</p>
+      <h2>About Us</h2>
     </header>
     <div class="content">
-      <h3>Lorem ipsum dolor</h3>
-      <p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
-      <p>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.</p>
+      <h3>What does mochilla and our logo mean?</h3>
+      <p>Mochila means backpack in Spanish or Portuguese. It is derived from mochil meaning messenger/carrier. Every traveler is a messenger and story teller that uses a backpack on their journey. 
+
+The white zipper allows us to zip and unzip our experiences. We travel to learn and make new experiences that we store as memories to later share with friends and families. 
+
+Motto 
+#Justpackup&go 
+
+Don’t stop at planning. Take that leap of faith, and just pack up & go chase your dreams.
+
+‘’Be fearless in the pursuit of what sets my soul on fire.’’- Unknown
+</p>
       <hr>
-      <h4>Feugiat aliquam</h4>
-      <p>Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat.</p>
-      <p>Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui, at vestibulum sit amet, auctor bibendum neque.</p>
+      <h4>Meet Us</h4>
+      <p>We met in 2013 at Cornell University, New York while we were completing our undergraduate studies.  We bonded around our passions for traveling and entrepreneurship. Combining our interests, we launched mochilla adventures in September 2016 and began travelling around SouthEast Asia. Our personal goals are to make a difference and travel around all 198 countries in the world. We love being inspired by other travelers and taking on new challenges. We have learnt a lot about ourselves and the world through our travels and we hope that by sharing our stories, we can help/inspire others to justpackup and pursue their dreams/journeys. </p>
     </div>
   </section>
 </div>

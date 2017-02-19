@@ -1,6 +1,7 @@
 name: Horizons
 description: Horizons template for Jekyll
 paginate: 10
+paginate_path: blog/page:num
 
 assets:
   digest: true

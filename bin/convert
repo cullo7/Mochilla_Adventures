@@ -1,4 +1,12 @@
 #!/bin/sh
-cat "$1" | recode html..ascii | sed -e 's/\\//g' > "$1.p"
-mv $1.p $1
+unescape() {
+  cat "$1" | recode html..ascii | sed -e 's/\\//g' > "$1.p"
+  mv "$1.p" "$1"
+}
 
+find . -name "*.docx" | while read -r line; do
+  name=`echo $line | sed -e 's/\.docx/\.md/g'`
+  echo "converting $line to $name"
+  pandoc "$line" -o "$name"
+  unescape "$name"
+done
