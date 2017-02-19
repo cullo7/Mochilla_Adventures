@@ -2,3 +2,5 @@ _site/
 .asset-cache
 readme.html
 *.swp
+_temp*
+_site*
