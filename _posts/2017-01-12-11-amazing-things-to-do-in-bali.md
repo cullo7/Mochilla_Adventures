@@ -1,0 +1,167 @@
+---
+layout: post
+title: "11 Amazing Things To Do in Bali"
+description: "Here are some of the most memorable things I did and recommend to do if you are ever on this wonderful island."
+og_image: "/images/pic01.jpg"
+tags: [travel, bali]
+---
+
+Bali is one of my favorite islands in South-East Asia. I spent the final
+6 weeks of my travels in Bali. After having spent 3 months moving around
+from one city to another, I was tired and wanted to take some time to
+settle down and reflect upon my travels. Bali was the perfect island to
+do just that. Here are some of the most memorable things I did and
+recommend to do if you are ever on this wonderful island.
+
+1.  Hike Mount Agung to see the Sunrise
+
+    a.  More like Mount Agony. It is one of the highest peaks in the
+        world and it takes 7 hours of intense hiking to reach the summit
+        for the sunrise. It is a very steep, dangerous and challenging
+        climb. However, having a good supportive team and determination
+        is what will get you to the top. So bring your willpower and
+        dream team because you will need it to conquer Mount Agung. Once
+        you make it to the top, you will see why the agony is all worth
+        it.
+
+    b.  This was one of the best highlights of my travels. Check out our
+        *ignorance is bliss post* for a full description of the hike.
+
+    c.  **p.s** - You will need a good Balinese massage after the hike.
+
+    d.  **Insert pics atop Mount Agung **
+
+2.  Rent a scooter and cruise through the rice paddies
+
+    a.  Beautiful rice paddies are everywhere in Bali and driving around
+        them in a scooter is very relaxing and soothing. You can also
+        snap some really good shots while you are exploring the green
+        paddies. So don’t forget to bring a camera.
+
+    b.  **Insert pic of Rice Paddy in Canggu**
+
+3.  Hit up the beach
+
+    a.  Bali has some of the best beaches in the world. In Canggu, you
+        can enjoy a coconut while watching a beautiful sunset on the
+        black sand beach. In Sanur, you can relax and meditate while
+        watching the sunrise. You can literally find any kind of beach
+        you want. And it’s free.
+
+    b.  **Insert pic at beach**.
+
+4.  Watch the spectacular sunsets
+
+    a.  When it comes to sunsets, there is no place better than Bali.
+        The sunsets in Bali are just beautiful and unforgettable. You
+        will never be disappointed. Try and watch as many sunsets as
+        possible while you are in Bali because you will miss them once
+        you leave.
+
+    b.  **Insert pic with caption- ‘’Friends that watch sunsets together
+        stay together.’’ **
+
+5.  Get a Balinese Massage
+
+    a.  Getting a massage in Bali is a must. I got a full body massage
+        after I hiked Mount Agung. My body was sore and achy and I
+        desperately need one. The massage fixed this and all my life
+        problems during that hour.
+
+    b.  I paid \$5 dollars for the massage, however, prices vary and
+        range from anywhere between 50-100k Rupiah (\$4-\$8 U.S
+        dollars).
+
+    c.  **No pic**
+
+6.  Buy traditional wear and dress like a local.
+
+    a.  When in Bali, do as the Balinese do. After seeing Balinese men
+        dressed up in their traditional saput and sarong (hat and
+        garment), I knew had to get my own because I love colorful stuff
+        and the sarongs looked super comfortable. So I bought myself two
+        sarongs and rocked them throughout my time in Bali.
+
+    b.  You can purchase a sarong at any local clothing store or by the
+        beach. Prices range anywhere from 35-100k Rupiah (\$3-\$8 U.S
+        dollars) depending on your negotiation skills. You have to put
+        those negotiation skills to use if you want to look and feel
+        good.
+
+    c.  **p.s** Sarongs also come in handy when you visit a Hindu temple
+        as you have to cover-up your legs before entering. Definitely a
+        good idea to buy one if you plan on visiting a temple
+
+    d.  **Insert pic ‘’at the shop after buying my gear.’’**
+
+    e.  **Insert pic ‘’At the airport, taking a piece of Bali away with
+        me.’’**
+
+7.  Try surfing
+
+    a.  Bali is known as the surfer’s island. Most surfers traveling
+        around South-east Asia stop by Bali as the waves are perfect for
+        surfing. There are many places that offer surf lessons right on
+        the beach or you can just rent out a board. Being broke and
+        being a rookie, I rented out a board for an hour and asked a
+        friend for a short lesson. I set off tried getting up failed
+        before I had to give back my
+
+    b.  Here is some good advice from a foolish rookie- ‘’Renting out a
+        board and a short 10 minute lessons won’t cut it. Take the
+        lessons. And practice over and over again.
+
+    c.  Check out my ‘’don’t always be foolish and cheap blog on surfing
+        and other things’’
+
+    d.  **Insert surfing pics**
+
+8.  Try Yoga and relax the body, mind and spirit.
+
+    a.  Bali is the best place to be for Yoga. There are literally Yoga
+        retreat places on every street corner or beach offering all
+        different types of yoga.
+
+    b.  I was lucky that I met two awesome friends at a hostel who had
+        just received their Yoga teaching certifications in Bali and
+        they were offering free Vinyasa yoga lessons. I quickly jumped
+        on that and loved the Vinyasa flow.
+
+    c.  **Insert Yoga pic pose**.
+
+9.  Get up early to see the sunrise
+
+    a.  Sunrises in Bali are not too shabby either. You can catch some
+        amazing sunrises in Sanur. They are even better when you go with
+        friends.
+
+    b.  **p.s** Watch out for the stray dogs in the early morning. They
+        might terrorize you on your way to watch the sunrise. I am
+        scared of dogs so take my advice with a grain of salt.
+
+    c.  **Insert sunrise pic**
+
+10. Get a palm reading
+
+    a.  Why not? Whether you believe in them or not, palm readings are
+        fun and interesting.
+
+    b.  **Insert palm reading pic**
+
+11. Celebrate Christmas in Bali
+
+    a.  This was my second Christmas on the road and it was simply
+        amazing. I celebrated Christmas with an amazing family and
+        friends that I met in Bali. We went to the beach in the morning
+        and then had a potluck Christmas celebration at the Unstoppable
+        Family’s house. As you can see from the picture, it was lit and
+        we even did the mannequin challenge to top it off.
+
+    b.  If you are not lucky enough to meet an amazing family that would
+        just invite you over for a big Christmas celebration. No
+        worries, you and your friends can hit up a Christmas party on
+        the beach.
+
+    c.  **Insert Christmas Party pics and mannequin challenge video. **
+
+
