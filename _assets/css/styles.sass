@@ -1694,6 +1694,15 @@ table
     tfoot
       border-top: 0
 
+.gallery
+  padding: 3em 0em
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+
+  img
+    padding-bottom: 1em
+
 #header
   /*
    *position: fixed;
@@ -1757,17 +1766,21 @@ table
         color: inherit !important
 
   .center-icon
+    display: flex
+    justify-content: center
+    align-items: center
     > img
       height: 40px
 
   a
-    width: 50px
+    width: 60px
     color: #fff
     font-size: 0.7em
     border: 0
     text-transform: uppercase
     margin: 0em 2em
     letter-spacing: 0.2em
+    text-align: center
     &:hover
       color: #fff !important
       font-weight: 800
@@ -2178,6 +2191,10 @@ body.is-loading #banner
       margin-right: auto
     p
       margin-top: 0
+
+  .post
+    .content
+      width: 100%
 
 @media screen and (max-width: 1680px)
   #main

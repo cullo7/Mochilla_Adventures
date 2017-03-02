@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<section class="cta">
+  <header>
+    <h2>{{ page.name }}</h2>
+  </header>
+  <div class="gallery">
+    {% for image in site.static_files %}
+      {% if image.path contains 'gallery' and image.path contains page.slug  %}
+        {% unless image.path contains 'thumbs' %}
+          {% assign basepath = image.path | split: "/" | last %}
+          {% assign thumb = basepath | prepend: "thumbs/" %}
+          {% assign thumbpath = image.path | replace: basepath, thumb %}
+          <a href="{{ site.baseurl }}{{ image.path }}" class="fluidbox-trigger" rel="gallery-1" title="image">
+            <img src="{{ site.baseurl }}{{ thumbpath }}"/>
+          </a>
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
