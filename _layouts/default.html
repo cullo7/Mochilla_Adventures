@@ -5,7 +5,15 @@
   <body class="" id="top" style="background-position: center 0px;">
     <div id="page-wrapper">
       <div id="main">
-      {% include header.html %}
+      <div class="fullpage-height">
+        {% if page.image %}
+        {% endif %}
+        <img class="background-image" src="{{ page.image }}" alt="">
+
+        {% include header.html %}
+        {% include banner.html %}
+      </div>
+
       {{ content }}
 
       {% include subscribe.html %}

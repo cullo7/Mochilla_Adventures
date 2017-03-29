@@ -1,12 +1,15 @@
 ---
-layout: default
+layout: resource
+
+title: Blog
+class: major
 ---
 
 {% for post in paginator.posts %}
 
 <section class="spotlight post" id="two">
   <a href="{{ post.url }}">
-    <div class="content">
+    <div>
       <h2>{{ post.title }}</h2>
       <p>{{ post.description }}</p>
     </div>
@@ -14,6 +17,7 @@ layout: default
 </section>
 
 {% endfor %}
+
 {% if paginator.total_pages > 1 %}
   <li class="article-pagination reveal">
     {% if paginator.previous_page %}

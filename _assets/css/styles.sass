@@ -1617,10 +1617,10 @@ header
     padding: 6.5em 3em 4.5em 3em
     text-align: center
     background-color: #c4918a
-    background-image: url("/images/overlay.png"), url("/images/header-bg.svg"), -moz-linear-gradient(45deg, #c4918a 20%, #6093c4 80%)
-    background-image: url("/images/overlay.png"), url("/images/header-bg.svg"), -webkit-linear-gradient(45deg, #c4918a 20%, #6093c4 80%)
-    background-image: url("/images/overlay.png"), url("/images/header-bg.svg"), -ms-linear-gradient(45deg, #c4918a 20%, #6093c4 80%)
-    background-image: url("/images/overlay.png"), url("/images/header-bg.svg"), linear-gradient(45deg, #c4918a 20%, #6093c4 80%)
+    // background-image: url("/images/overlay.png"), url("/images/header-bg.svg"), -moz-linear-gradient(45deg, #c4918a 20%, #6093c4 80%)
+    // background-image: url("/images/overlay.png"), url("/images/header-bg.svg"), -webkit-linear-gradient(45deg, #c4918a 20%, #6093c4 80%)
+    // background-image: url("/images/overlay.png"), url("/images/header-bg.svg"), -ms-linear-gradient(45deg, #c4918a 20%, #6093c4 80%)
+    // background-image: url("/images/overlay.png"), url("/images/header-bg.svg"), linear-gradient(45deg, #c4918a 20%, #6093c4 80%)
     background-size: 100px 100px, cover, cover
     background-position: center, center, center
     h2:after
@@ -1629,6 +1629,37 @@ header
     p
       margin-top: 0
       margin-bottom: 2em
+
+.fullpage-height
+  height: 100vh
+  margin-bottom: 0 !important
+  overflow: hidden
+  position: relative
+
+  .background-image
+    width: 100%
+    position: absolute
+    top: 0
+    animation: zoomIn 30s ease-in-out 0s infinite
+
+@keyframes zoomIn
+  0% 
+    transform: scale(1)
+  50% 
+    transform: scale(1.2)
+  100% 
+    transform: scale(1)
+  
+
+    
+    // transform-origin: 20% 80%
+    // transition: transform 70s linear
+    // position: absolute
+    // top: 50%
+    // left: 50%
+    // margin-left: -1024px
+    // margin-top: -703px
+
 
 @media screen and (max-width: 1280px)
   header
@@ -1702,6 +1733,9 @@ table
 
   img
     padding-bottom: 1em
+
+.header-container
+  padding-top: 3em
 
 #header
   /*
@@ -1848,10 +1882,10 @@ table
   -webkit-transition: opacity 0.25s ease-out, visibility 0.25s
   -ms-transition: opacity 0.25s ease-out, visibility 0.25s
   transition: opacity 0.25s ease-out, visibility 0.25s
-  background-image: url("/images/overlay.png"), url("/images/menu-bg.svg"), -moz-linear-gradient(45deg, rgba(196, 145, 138, 0.75) 20%, rgba(96, 147, 196, 0.985) 80%)
-  background-image: url("/images/overlay.png"), url("/images/menu-bg.svg"), -webkit-linear-gradient(45deg, rgba(196, 145, 138, 0.75) 20%, rgba(96, 147, 196, 0.985) 80%)
-  background-image: url("/images/overlay.png"), url("/images/menu-bg.svg"), -ms-linear-gradient(45deg, rgba(196, 145, 138, 0.75) 20%, rgba(96, 147, 196, 0.985) 80%)
-  background-image: url("/images/overlay.png"), url("/images/menu-bg.svg"), linear-gradient(45deg, rgba(196, 145, 138, 0.75) 20%, rgba(96, 147, 196, 0.985) 80%)
+  // background-image: url("/images/overlay.png"), url("/images/menu-bg.svg"), -moz-linear-gradient(45deg, rgba(196, 145, 138, 0.75) 20%, rgba(96, 147, 196, 0.985) 80%)
+  // background-image: url("/images/overlay.png"), url("/images/menu-bg.svg"), -webkit-linear-gradient(45deg, rgba(196, 145, 138, 0.75) 20%, rgba(96, 147, 196, 0.985) 80%)
+  // background-image: url("/images/overlay.png"), url("/images/menu-bg.svg"), -ms-linear-gradient(45deg, rgba(196, 145, 138, 0.75) 20%, rgba(96, 147, 196, 0.985) 80%)
+  // background-image: url("/images/overlay.png"), url("/images/menu-bg.svg"), linear-gradient(45deg, rgba(196, 145, 138, 0.75) 20%, rgba(96, 147, 196, 0.985) 80%)
   background-size: 100px 100px, cover, cover
   background-position: center, center, center
   -webkit-tap-highlight-color: transparent
@@ -1871,7 +1905,7 @@ table
     width: 6em
     height: 6em
     line-height: 6em
-    background-image: url("/images/close.svg")
+    // background-image: url("/images/close.svg")
     background-position: center
     background-repeat: no-repeat
     background-size: 3.5em 3.5em
@@ -1982,6 +2016,8 @@ body.is-menu-visible
   background-repeat: no-repeat
   background-size: cover
   text-align: center
+  margin-top: 20vh
+
   header
     display: -moz-flex
     display: -webkit-flex
@@ -2087,11 +2123,15 @@ body.is-loading #banner
     filter: blur(1px)
     opacity: 0
 
+.logo-feature
+  p
+    font-size: 0.7em
+
 @media screen and (max-width: 1280px)
   #banner
     header
       padding: 3.5em 3em 1em 3em
-      height: 28em
+      // height: 28em
       h2
         font-size: 1.65em
     footer
@@ -2099,7 +2139,7 @@ body.is-loading #banner
 
 @media screen and (max-width: 980px)
   #banner header
-    height: 34em
+    // height: 34em
 
 @media screen and (max-width: 736px)
   #banner
@@ -2131,16 +2171,24 @@ body.is-loading #banner
     padding: 6.5em 3em 6em 3em
 
 #main
-  width: 76em
+  // width: 76em
   margin: 0 auto
   > *
     margin-bottom: 6em
   .default
     background-color: #32383f
     .content
-      padding: 4em 4em 2em 4em
+      width: 76em
+      margin: auto
+      padding: 4em 4em 4em 4em
+
+    &.alternate
+      background-color: #ffffff
+      color: #32383f
+      margin-bottom: 0
+
   .features
-    margin-top: 15em
+    // margin-top: 15em
     background-color: #32383f
     .content
       display: -moz-flex
@@ -2198,18 +2246,19 @@ body.is-loading #banner
 
 @media screen and (max-width: 1680px)
   #main
-    padding-top: 4.5em
+    // padding-top: 4.5em
     > *
       margin-bottom: 4.5em
 
 @media screen and (max-width: 1280px)
   #main
-    width: calc(100% - 6em)
-    padding-top: 3em
+    // width: calc(100% - 6em)
+    // padding-top: 3em
     > *
       margin-bottom: 3em
     .default .content
-      padding: 3em 3em 1em 3em
+      width: calc(100% - 6em)
+      padding: 3em 3em 3em 3em
     .features .content .feature
       padding: 3em 2em 1em 2em
     .spotlight .content
@@ -2244,7 +2293,8 @@ body.is-loading #banner
     > *
       margin-bottom: 0
     .default .content, .features .content .feature
-      padding: 3em 1.5em 1em 1.5em
+      width: 80vw
+      padding: 3em 1.5em 3em 1.5em
     .spotlight .content
       padding: 3em 1.5em 1em 1.5em
       h2:after
